@@ -543,7 +543,7 @@ License URI: https://www.gnu.org/licenses/gpl.html
     z-index: 65;
 }
 
-.tnj-archive-gallery-entry > img {
+.tnj-GalleryThumb > img {
     height: auto!important;
     max-width: 100%;
 }
