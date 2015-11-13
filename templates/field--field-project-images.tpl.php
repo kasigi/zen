@@ -49,8 +49,12 @@
         <div class="tnj-corestyles tnj-Gallery-Title field-label"<?php print $title_attributes; ?>><?php print $label ?>:&nbsp;</div>
     <?php endif; ?>
     <div class="gallery tnj-Gallery isotope field-items"<?php print $content_attributes; ?>>
-        <?php foreach ($items as $delta => $item): ?>
-            <div class="tnj-GalleryElement  tnj-GalleryThumb isotope-item field-item <?php print $delta % 2 ? 'odd' : 'even'; ?>"<?php print $item_attributes[$delta]; ?>><?php print render($item); ?></div>
-        <?php endforeach; ?>
+        <?php
+            $vver = 1;
+            foreach ($items as $delta => $item): ?>
+            <div class="tnj-GalleryElement  <?php if($vver != 1){echo "tnj-GalleryThumb";}else{echo "tnj-GalleryImage";} ?> isotope-item field-item <?php print $delta % 2 ? 'odd' : 'even'; ?>"<?php print $item_attributes[$delta]; ?>><?php print render($item); ?></div>
+        <?php
+            $vver++;
+            endforeach; ?>
     </div>
 </div>
