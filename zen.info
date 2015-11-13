@@ -1,5 +1,5 @@
-name        = Zen
-description = Zen sub-themes are the ultimate starting themes for Drupal 7. Read the <a href="https://drupal.org/node/873778">online docs</a> or the included README-FIRST.txt on how to create a theme with Zen.
+name        = KasigiDrupal2015
+description = A zen-derived theme for kasigi.com
 screenshot  = zen-internals/screenshot.png
 
 core        = 7.x
@@ -12,6 +12,7 @@ regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
+regions[content_under]        = Content Under
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
