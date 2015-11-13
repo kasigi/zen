@@ -1,6 +1,6 @@
 name        = KasigiDrupal2015
 description = A zen-derived theme for kasigi.com
-screenshot  = zen-internals/screenshot.png
+screenshot  = screenshot.png
 
 core        = 7.x
 engine      = phptemplate
@@ -12,7 +12,7 @@ regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
-regions[content_under]        = Content Under
+regions[content_under]  = Content Under
 regions[sidebar_first]  = First sidebar
 regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
