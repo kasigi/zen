@@ -24,7 +24,7 @@ if (theme_get_setting('zen_rebuild_registry') && !defined('MAINTENANCE_MODE')) {
  * Implements HOOK_theme().
  */
 function zen_theme(&$existing, $type, $theme, $path) {
-  include_once './' . drupal_get_path('theme', 'zen') . '/zen-internals/template.theme-registry.inc';
+  //include_once './' . drupal_get_path('theme', 'zen') . '/zen-internals/template.theme-registry.inc';
   return _zen_theme($existing, $type, $theme, $path);
 }
 
@@ -116,7 +116,7 @@ function zen_preprocess_html(&$variables, $hook) {
 
   // If the user is silly and enables Zen as the theme, add some styles.
   if ($GLOBALS['theme'] == 'zen') {
-    include_once './' . $variables['path_to_zen'] . '/zen-internals/template.zen.inc';
+    //include_once './' . $variables['path_to_zen'] . '/zen-internals/template.zen.inc';
     _zen_preprocess_html($variables, $hook);
   }
 
