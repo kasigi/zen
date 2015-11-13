@@ -5,7 +5,9 @@ screenshot  = screenshot.png
 core        = 7.x
 engine      = phptemplate
 
-stylesheets[all][] = system.menus.css
+
+stylesheets[all][] = bootstrap.min.css
+stylesheets[all][] = kasigiPortfolio2015.css
 
 regions[header]         = Header
 regions[navigation]     = Navigation bar
@@ -19,6 +21,12 @@ regions[footer]         = Footer
 regions[bottom]         = Page bottom
 regions[page_top]       = Page top
 regions[page_bottom]    = Page bottom
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/tnjGallery.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = js/imagesloaded.pkgd.min.js
+
 
 settings[zen_breadcrumb]           = yes
 settings[zen_breadcrumb_separator] = ' › '
@@ -34,4 +42,4 @@ settings[zen_html5_respond_meta][] = meta
 settings[zen_rebuild_registry]     = 0
 settings[zen_wireframes]           = 0
 
-plugins[panels][layouts] = panels-layouts
+#plugins[panels][layouts] = panels-layouts
