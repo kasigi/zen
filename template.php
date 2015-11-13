@@ -734,3 +734,12 @@ function zen_mark($variables) {
 function zen_panels_default_style_render_region($variables) {
   return implode('', $variables['panes']);
 }
+
+
+
+
+function hook_preprocess_image(&$variables) {
+  foreach (array('width', 'height') as $key) {
+    unset($variables[$key]);
+  }
+}
