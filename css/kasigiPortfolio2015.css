@@ -543,6 +543,10 @@ License URI: https://www.gnu.org/licenses/gpl.html
     z-index: 65;
 }
 
+.tnj-archive-gallery-entry > img {
+    height: auto!important;
+    max-width: 100%;
+}
 
 @media (min-width: 600px) {
     .tnj-archive-gallery-entry {
