@@ -6,8 +6,8 @@ core        = 7.x
 engine      = phptemplate
 
 
-stylesheets[all][] = bootstrap.min.css
-stylesheets[all][] = kasigiPortfolio2015.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/kasigiPortfolio2015.css
 
 regions[header]         = Header
 regions[navigation]     = Navigation bar
